@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment-02</title>
+<link rel="shortcut icon" href="c:\Users\DELL\Pictures\Screenshots\Screenshot 2025-02-19 055142.png" type="image/x-icon">
+<style>
+ body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    min-height: 100vh;     /* Ensure the body takes up at least the full viewport height */
+    margin: 0;             /* Remove default body margin */
+    background-color: #f0f0f0; /* Optional background color for the page */
+  }
+
+  .chessboard {
+    width: 320px; /* Adjust size as needed */
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(8, 40px); /* Adjust cell size as needed */
+    grid-template-rows: repeat(8, 40px);
+    border: 2px solid #333; /* Optional border */
+  }
+
+  .square {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Adjust piece size */
+  }
+
+  .light {
+    background-color: #f0f8e0; /* Light beige/off-white */
+  }
+
+  .dark {
+    background-color: #90ee90; /* Light green */
+  }
+
+  /* Basic piece representation */
+  .piece {
+    user-select: none;
+  }
+
+  .wP { color: black; } /* White Pawn */
+  .wR { color: black; } /* White Rook */
+  .wN { color: black; } /* White Knight */
+  .wB { color: black; } /* White Bishop */
+  .wQ { color: black; } /* White Queen */
+  .wK { color: black; } /* White King */
+  .bP { color: white; } /* Black Pawn */
+  .bR { color: white; } /* Black Rook */
+  .bN { color: white; } /* Black Knight */
+  .bB { color: white; } /* Black Bishop */
+  .bQ { color: white; } /* Black Queen */
+  .bK { color: white; } /* Black King *
+  .wP { color: black; } /* White Pawn */
+  .wR { color: black; } /* White Rook */
+  .wN { color: black; } /* White Knight */
+  .wB { color: black; } /* White Bishop */
+  .wQ { color: black; } /* White Queen */
+  .wK { color: black; } /* White King */
+  .bP { color: white; } /* Black Pawn */
+  .bR { color: white; } /* Black Rook */
+  .bN { color: white; } /* Black Knight */
+  .bB { color: white; } /* Black Bishop */
+  .bQ { color: white; } /* Black Queen */
+  .bK { color: white; } /* Black King */
+</style>
+</head>
+<body>
+
+<div class="chessboard">
+  <div class="square light">&#9817;</div>
+  <div class="square dark">&#9817;</div>
+  <div class="square light">&#9817;</div>
+  <div class="square dark">&#9817;</div>
+  <div class="square light">&#9817;</div>
+  <div class="square dark">&#9817;</div>
+  <div class="square light">&#9817;</div>
+  <div class="square dark">&#9817;</div>
+
+  <div class="square dark">&#9814;</div>
+  <div class="square light">&#9816;</div>
+  <div class="square dark">&#9815;</div>
+  <div class="square light">&#9813;</div>
+  <div class="square dark">&#9812;</div>
+  <div class="square light">&#9815;</div>
+  <div class="square dark">&#9816;</div>
+  <div class="square light">&#9814;</div>
+
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+  <div class="square dark"></div>
+  <div class="square light"></div>
+
+  <div class="square light">&#9823;</div>
+  <div class="square dark">&#9823;</div>
+  <div class="square light">&#9823;</div>
+  <div class="square dark">&#9823;</div>
+  <div class="square light">&#9823;</div>
+  <div class="square dark">&#9823;</div>
+  <div class="square light">&#9823;</div>
+  <div class="square dark">&#9823;</div>
+
+  <div class="square dark">&#9820;</div>
+  <div class="square light">&#9822;</div>
+  <div class="square dark">&#9821;</div>
+  <div class="square light">&#9819;</div>
+  <div class="square dark">&#9818;</div>
+  <div class="square light">&#9821;</div>
+  <div class="square dark">&#9822;</div>
+  <div class="square light">&#9820;</div>
+</div>
+</body>
+</html>
